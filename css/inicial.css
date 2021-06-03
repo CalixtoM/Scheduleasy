@@ -1,0 +1,29 @@
+#bt{
+	margin-top: 20px;
+}
+
+#inputs{
+	margin-top: 15px;
+	font-family: arial;
+}
+
+
+#btnslv{
+	border-radius: 0px;
+	color: green;
+	background-color: white;
+}
+
+#btnslv:hover{
+	background-color: green;
+	color: white;
+
+}
+
+#inpt:hover{
+	border-color: lightgreen;
+}
+
+#editbtn{
+	color: white;
+}
