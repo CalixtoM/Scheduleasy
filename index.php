@@ -69,8 +69,8 @@ include('inc/conecta.php');
 
 		    	echo "</td>
 		    		<td>".$obj->nm_importancia."</td>
-		    		<td><a href='delete.php?cd='".$obj->cd_compromisso."' class='btn btn-danger'>Excluir</a>
-		    		<a href='edit.php?c='".$obj->cd_compromisso."' class='btn btn-warning' id='editbtn'>Editar</a></td>
+		    		<td><a href='delete.php?cd=$obj->cd_compromisso' class='btn btn-danger'>Excluir</a>
+		    		<a href='edit.php?c=$obj->cd_compromisso' class='btn btn-warning' id='editbtn'>Editar</a></td>
 		    		</tr>
 		    		";
 		    	}
