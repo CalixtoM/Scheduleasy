@@ -23,7 +23,7 @@ include('inc/conecta.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/inicial.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Agenda</title>
 </head>
 <body>
