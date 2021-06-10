@@ -3,7 +3,7 @@ include('inc/conecta.php');
 	$_GET['cd'] = 0;
 	$_GET['c'] = 0;
 	$cont = 0;
-	
+	$a = 0;
 	date_default_timezone_set('America/Sao_Paulo');
 	$dthj = date('Y-m-d');
 
@@ -17,7 +17,7 @@ include('inc/conecta.php');
 	if($result = $mysqli->query($sel)){
 
 	
-
+include('modal.php');
 ?>
 
 <!DOCTYPE html>
@@ -69,7 +69,8 @@ include('inc/conecta.php');
 
 		    	echo "</td>
 		    		<td>".$obj->nm_importancia."</td>
-		    		<td><a href='delete.php?cd=$obj->cd_compromisso' class='btn btn-danger'>Excluir</a>
+		    		<td><a href='excluir.php?cd=$obj->cd_compromisso' class='btn btn-danger' id='editbtn'>Excluir</a>
+
 		    		<a href='edit.php?c=$obj->cd_compromisso' class='btn btn-warning' id='editbtn'>Editar</a></td>
 		    		</tr>
 		    		";
@@ -126,6 +127,8 @@ include('inc/conecta.php');
 			</div></center>
 		</div>
 	</div>
+
+<!-- Modal confirmação -->
 
 
 
