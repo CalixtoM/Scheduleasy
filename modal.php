@@ -5,11 +5,11 @@
 
     <div class="modal-content">
       <div class="modal-body">
-            <p> QUER REALMENTE FAZER ISSO?? NÂO POR FAVOR, EU TENHO FILHOS </p>
+            <p> Deseja Realmente Excluir esse compromisso? </p>
             <?php echo $obj->cd_compromisso; ?>
       </div>
       <div class="modal-footer">
-        <a href="delete.php?codigo=<?php echo $_GET['codigo']?> " type="button" class="btn btn-danger" id="delete">Apagar Registo</a>
+        <a href="delete.php" type="button" class="btn btn-danger" id="delete">Apagar Compromisso</a>
             <button type="button" data-dismiss="modal" class="btn btn-default">Cancelar</button>
       </div>
     </div>
