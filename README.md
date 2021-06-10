@@ -5,10 +5,12 @@
 
  * Adicionar compromissos.
  * Listar compromissos.
+ * Editar compromissos.
+ * Excluir compromissos.
 
 ### Futuras adições:
 
- * Editar compromissos.
- * Excluir compromissos.
+ * Concluir compromissos.
+
 
 # 🛠 PROJETO EM DESENVOLVIMENTO
