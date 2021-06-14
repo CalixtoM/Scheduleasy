@@ -9,7 +9,7 @@
  * Excluir compromissos.
 
 ### Futuras adições:
-
+ * Confirmar exclusão.
  * Concluir compromissos.
 
 
