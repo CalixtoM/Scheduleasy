@@ -11,6 +11,7 @@
 ### Futuras adições:
  * Confirmar exclusão.
  * Concluir compromissos.
+ * Sistema de Registro e Login.
 
 
 # 🛠 PROJETO EM DESENVOLVIMENTO
