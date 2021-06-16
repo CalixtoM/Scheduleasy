@@ -1,7 +1,7 @@
 <?php
 include('inc/conecta.php');
-	$_GET['cd'] = 0;
-	$_GET['c'] = 0;
+	$_GET['cd'] = 0;//GET de exclusão
+	$_GET['c'] = 0;//GET de edição
 	$cont = 0;
 	$a = 0;
 	date_default_timezone_set('America/Sao_Paulo');
@@ -152,7 +152,7 @@ include('modal.php');
 		
 		else{
 
-		header('location: index.php');
+		echo "<script>location.href='index.php';</script>";
 		}
 	}
 
