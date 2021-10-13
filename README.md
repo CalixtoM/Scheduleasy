@@ -1,5 +1,7 @@
 # Scheduleasy
-## Projeto simples de uma agenda  utilizando PHP, CSS e banco de dados MySQL.
+
+## 💡Ideias:
+Projeto simples de uma agenda  utilizando PHP, CSS e banco de dados MySQL.
 
 ### Funções implementadas até o momento:
 
