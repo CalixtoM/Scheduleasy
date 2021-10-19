@@ -16,6 +16,12 @@ Projeto simples de uma agenda  utilizando PHP, CSS e banco de dados MySQL.
  * Concluir compromissos.
  * Sistema de Registro e Login.
 
+### 🖥️Tecnologias utilizadas:
+
+- PHP;
+- CSS;
+- Javascript;
+- MySQL.
 
 ### 📸 Screenshots:
 
