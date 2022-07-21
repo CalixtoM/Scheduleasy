@@ -11,12 +11,12 @@ Projeto simples de uma agenda  utilizando PHP, CSS e banco de dados MySQL.
  * Excluir compromissos.
  * Opção Light/Dark mode.
 
-#### Futuras adições:
+#### ✅ To-Do list:
  * Confirmar exclusão.
  * Concluir compromissos.
  * Sistema de Registro e Login.
 
-### 🖥️Tecnologias utilizadas:
+### 🧰 Tecnologias utilizadas:
 
 - PHP;
 - CSS;
